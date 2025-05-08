@@ -5,52 +5,22 @@ Option 1: Hyper-Local Niche Dominance
 Strategy Overview: Focus on dominating the cat sitting market in Bangalore’s urban and nearby regions by emphasizing hyper-local accessibility and affordability, targeting young professionals and small families. Leverage low-cost AI and low-code platforms to build a lean MVP, prioritizing freelancer recruitment and retention through incentives.
 
 Key Elements:
-
-
-
-
-
 Market Positioning: Position as the go-to, budget-friendly, hyper-local cat sitting app for Bangalore’s urban pet owners, emphasizing 3–5 km sitter proximity.
 
-
-
 Feature Prioritization (MoSCoW):
-
-
-
-
-
 Must Have: Cat profiles (Bubble forms), hyper-local booking (Google Maps API), Razorpay payments, GPS tracking.
-
-
-
 Should Have: AI chatbot (Google Cloud Dialogflow), photo updates (Firebase).
-
-
-
 Could Have: Basic AI cat care tips.
-
-
-
 Won’t Have: Advanced AI analytics, live streaming.
 
-
-
 Freelancer Incentives: 15% commission, INR 500 bonus for 20+ bookings/month, instant UPI payouts, flexible schedules.
-
-
-
 Development Approach: Use Bubble (~INR 5 lakh), Firebase (~INR 5 lakh), Google Cloud AI (~INR 5 lakh), React Native (~INR 10 lakh) to keep costs at ~INR 25 lakh.
-
-
 
 Scaling Plan: Start in Bangalore urban (Q3 2025), expand to Electronic City, Sarjapur by Q1 2026, targeting 2,500 users in Year 1, 10,000 by Year 3.
 
 
 
 Go-to-Market:
-
-
 
 
 
