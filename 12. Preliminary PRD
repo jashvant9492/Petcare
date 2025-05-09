@@ -1,0 +1,202 @@
+Preliminary Product Requirements Document (PRD) for Cat-Only Pet Sitting Application in Bengaluru
+1. Introduction
+
+Product Name: CatCare (tentative)
+Purpose: To deliver a mobile application that connects Bengaluru cat owners with verified, local pet sitters, offering affordable (INR 200–350/visit), cat-specific care through a freemium model. 
+The app addresses market pain points identified in the Market Requirements Document (MRD), including trust issues (65% of owners), high costs (INR 500–1,500/visit), limited cat-specific care (45% demand), and availability gaps in outskirts (55% concern). 
+By leveraging low-code platforms (Bubble, Firebase, Google Cloud Dialogflow), CatCare aims to launch by Q3 2025, targeting 5,000 monthly active users (MAU) in Year 1.
+
+2. Target Audience
+
+Primary Users: Cat owners in Bengaluru needing pet sitting for short to medium-term periods (1–7 days).
+Demographics: Aged 25–45, middle to upper-middle class (INR 5–20 lakh/year), residing in urban core (Indiranagar, Koramangala, HSR Layout) and outskirts (Whitefield, Sarjapur, Electronic City).
+User Profiles:
+Young Professionals: Tech workers, aged 25–35, frequent travelers (4–6 times/year), seeking short-term care.
+Small Families: Nuclear families, aged 30–50, occasional travelers (2–3 times/year), budget-conscious.
+Cat Enthusiasts: Breeders/rescuers, aged 18–40, prioritizing premium, cat-specific services.
+
+Secondary Users: Pet sitters providing services.
+Profiles: Freelancers, students, retirees seeking flexible income, motivated by fair pay and love for cats.
+
+
+
+3. Product Goals
+
+Primary Goal: 
+Launch a mobile app that connects cat owners with verified, local pet sitters, offering affordable, cat-specific care to address trust, cost, and availability issues.
+
+Secondary Goals:
+Achieve 5,000 MAU by Q3 2026.
+Ensure 85% of bookings are fulfilled by sitters within 5 km.
+Convert 20% of users to premium subscriptions (INR 800/month).
+Maintain a user satisfaction score (Net Promoter Score, NPS) above 60.
+
+
+
+4. Key Features
+
+Functional Features:
+User Registration and Profiles: Owners input cat details (breed, diet, litter preferences); sitters provide qualifications and experience.
+Hyper-Local Booking System: Search and book sitters within 5 km using Google Maps API.
+Secure Payment Processing: Support for UPI, credit/debit cards, and digital wallets via Razorpay, with instant payouts for sitters.
+Real-Time Chat: In-app messaging between owners and sitters for coordination.
+GPS Tracking: Verify sitter visits via location sharing.
+Photo/Video Updates: Real-time updates during sitting periods (premium feature).
+Rating and Review System: Owners rate sitters to build trust and accountability.
+Admin Dashboard: Manage users, bookings, and disputes.
+
+
+Non-Functional Features:
+Performance: App load time <3 seconds; booking completion <5 minutes.
+Security: Encrypted user data and payment information.
+Scalability: Support 5,000 MAU in Year 1, scaling to 20,000 by Year 3.
+Usability: Intuitive interface for all users, including low-tech sitters (e.g., retirees).
+
+
+
+5. User Stories
+
+Pet Owner:
+"As a cat owner, I want to book a verified sitter nearby to care for my cat while I travel, so I can ensure my pet’s safety."
+"As a cat owner, I want photo updates during sitting sessions to know my cat is comfortable."
+"As a cat owner, I want affordable pricing (INR 200–350/visit) to fit my budget."
+
+
+Pet Sitter:
+"As a pet sitter, I want instant UPI payouts after each job to manage my finances."
+"As a pet sitter, I want to manage my schedule and bookings easily through the app."
+"As a pet sitter, I want cat-specific training resources to provide high-quality care."
+
+
+
+6. Success Metrics
+
+Metric
+Target
+
+Booking Time
+Average <5 minutes
+
+Booking Fulfillment
+95% completed on schedule
+
+User Satisfaction
+NPS >60
+
+User Retention
+70% return for repeat bookings within 6 months
+
+Sitter Accessibility
+85% bookings within 5 km
+
+Freemium Conversion
+20% upgrade to premium (INR 800/month)
+
+
+7. Scope and Exclusions
+
+In-Scope:
+Mobile app for iOS and Android.
+Booking and payment systems.
+Real-time updates and GPS tracking.
+Cat-specific care features (e.g., litter management, behavioral monitoring).
+
+
+Out-of-Scope:
+Web-based platform.
+Grooming or veterinary services.
+Advanced AI features beyond basic chatbot functionality.
+
+
+
+8. Assumptions and Constraints
+
+Assumptions:
+Sufficient demand exists for cat-specific pet sitting in Bengaluru (~340,000 cat-owning households).
+Sitters will accept INR 200–350 per visit with a 15% commission.
+Low-code platforms (Bubble, Firebase) will meet performance needs.
+
+
+Constraints:
+Budget: ~INR 23 lakh for development.
+Timeline: Launch by Q3 2025 (October 2025).
+Geographic Focus: Initially Bengaluru, with potential expansion to Mumbai/Pune later.
+
+
+
+9. Timeline and Milestones
+
+Phase
+Timeline
+Key Activities
+
+Conceive/Plan
+May–June 2025
+Finalize requirements, prototype design, stakeholder approval
+
+Development
+July–August 2025
+Build MVP using Bubble, Firebase, React Native
+
+Testing
+September 2025
+User testing, bug fixes, performance optimization
+
+Launch
+October 2025
+Public release, marketing campaign
+
+
+
+
+10. Risks and Mitigation
+
+Risk
+Likelihood
+Impact
+Mitigation
+
+Insufficient sitter supply
+Medium
+High
+Offer competitive 15% commission, instant UPI payouts, INR 400 bonus for 15+ bookings/month; partner with Bangalore Cat Squad for recruitment
+
+Low user adoption
+Medium
+High
+Targeted Instagram/Facebook ads, partnerships with pet stores (Heads Up For Tails), user-friendly design
+
+Technical issues
+Low
+Medium
+Use proven low-code platforms, conduct rigorous testing, allocate buffer time for debugging
+
+Low freemium-to-premium conversion
+Medium
+Medium
+Bundle premium features (photo updates, AI tips), offer 1-month free trial
+
+
+
+
+11. Quality and Constraints
+
+Quality Requirements:
+Secure, scalable, and user-friendly app with 99% uptime.
+High user satisfaction (NPS >60) through intuitive design and reliable service.
+
+Constraints:
+Limited budget requires low-code development.
+Tight timeline demands efficient prototyping and testing.
+Bengaluru focus limits initial market scope.
+
+
+
+
+
+12. Next Steps
+
+Prototyping: Develop a Bubble prototype for booking and sitter profiles by June 2025.
+User Feedback: Test prototype with 10–15 cat owners and sitters via Bangalore Cat Squad in July 2025.
+Refinement: Update PRD based on feedback to finalize MVP requirements for development phase.
+
