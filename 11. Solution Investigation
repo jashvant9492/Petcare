@@ -1,0 +1,157 @@
+1. Market Investigation Overview
+The MRD highlighted key pain points: 
+trust issues (65% of owners), high costs (INR 500–1,500/visit), 
+limited cat-specific care (45% demand)
+availability gaps in outskirts (55% concern). 
+With ~340,000 cat-owning households and a pet sitting market growing at a 16.4% CAGR, the opportunity is significant. 
+
+
+2. Identification and Prioritization of Solution Candidates
+
+To develop solution candidates, a Joint Application Design (JAD) session is recommended, involving the product team, cat owners, and potential sitters from Bangalore Cat Squad. 
+The following candidates were brainstormed based on the MRD and market insights:
+
+
+Solution Candidates
+
+Candidate
+Description
+Strengths
+Weaknesses
+Benefits
+
+Mobile App with Freemium Model
+Mobile app connecting cat owners with verified sitters; free basic booking, per-visit fees (INR 200–350), premium subscription (INR 800/month) for photo updates, AI tips.
+Aligns with affordability; tech-savvy user base; scalable with low-code platforms.
+Requires robust sitter recruitment; risk of low premium conversion.
+High adoption; cost-effective development; scalable revenue.
+
+
+
+Web-Based Platform with Mobile Companion
+Web platform for booking, mobile app for updates.
+Lower development costs; wider accessibility.
+Less convenient for mobile-first users; weaker user experience.
+Easier maintenance; cost savings.
+
+
+Integrated Pet Care Ecosystem
+App including sitting, grooming, vet referrals, supplies.
+Comprehensive solution; higher retention.
+High complexity; dilutes sitting focus.
+Multiple revenue streams; strong value proposition.
+
+
+Community-Driven Platform
+Platform with community forums, events, and local partnerships.
+Builds trust; leverages pet communities.
+Slower user growth; time-intensive.
+Differentiates via community engagement.
+
+
+
+Prioritization
+
+Using an Impact, Confidence, Ease (ICE) framework:
+
+Candidate
+Impact
+Confidence
+Ease
+Score
+
+Mobile App with Freemium Model
+9 (meets affordability, trust)
+8 (market research supports)
+7 (low-code platforms)
+504
+
+Community-Driven Platform
+8 (builds trust)
+6 (needs community buy-in)
+5 (time-intensive)
+240
+
+Web-Based Platform
+6 (less mobile-first)
+8 (proven model)
+8 (lower cost)
+384
+
+Integrated Ecosystem
+8 (comprehensive)
+5 (complex)
+4 (high cost)
+160
+
+
+
+Recommended Solution: 
+The Mobile App with Freemium Model is prioritized for its high impact, alignment with Bengaluru’s mobile-first users, and feasibility using low-code platforms.
+Community-driven elements (e.g., forums) can be integrated later.
+
+
+
+3. Feasibility Study
+The feasibility study evaluates the mobile app with a freemium model across technical, financial, and operational dimensions.
+
+
+Technical Feasibility
+
+Question: Can the app be built using Bubble, Firebase, and Google Cloud Dialogflow?
+Assessment: Yes, these platforms support:
+
+Bubble: Rapid prototyping of user interfaces (booking, profiles).
+Firebase: Backend for authentication, database, hosting.
+Dialogflow: AI chatbot for user support.
+React Native: Mobile app for iOS/Android.
+Risks: Limited customization with low-code; performance issues at scale.
+Mitigation: Use React Native for performance; monitor scalability with Firebase.
+
+
+
+Financial Feasibility
+
+Question: Can the app be developed within ~INR 23 lakh?
+Assessment: Yes, estimated costs:
+
+Component
+Cost (INR)
+
+Bubble (frontend)
+5 lakh
+
+Firebase (backend)
+5 lakh
+
+Dialogflow (AI)
+3 lakh
+
+React Native (app)
+10 lakh
+
+Total
+23 lakh
+
+
+
+Operational Costs: INR 15 lakh/year (hosting, marketing, support).
+Risks: Underestimating marketing or sitter onboarding costs.
+Mitigation: Allocate budget for targeted ads (Instagram, Facebook); leverage Bangalore Cat Squad for low-cost promotion.
+
+
+
+Operational Feasibility
+
+Question: Can enough sitters be recruited to meet demand?
+Assessment: Feasible with:
+
+Incentives: 15% commission, instant UPI payouts, INR 400 bonus for 15+ bookings/month.
+Partnerships: Bangalore Cat Squad, pet stores (Heads Up For Tails) for recruitment.
+Target: 50 sitters in Year 1, scaling to 100 by Year 2.
+Risks: Sitter churn; quality concerns.
+Mitigation: Rigorous vetting, ratings, cat-specific training.
+
+
+
+Conclusion: The mobile app is technically viable, financially feasible within budget, and operationally achievable with strategic sitter recruitment.
