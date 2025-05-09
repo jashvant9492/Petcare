@@ -1,0 +1,147 @@
+1. Market Segment
+
+Target Audience: 
+Cat owners in Bengaluru, India, requiring pet sitting services for short to medium-term periods (1–7 days).
+
+Demographics:
+Age: 25–45 years
+Income: Middle to upper-middle class (INR 5–20 lakh/year)
+Location: Urban core (Indiranagar, Koramangala, HSR Layout) and outskirts (Whitefield, Sarjapur, Electronic City)
+
+
+User Profiles:
+Young Professionals: Tech workers or corporate employees, aged 25–35, who travel frequently (4–6 times/year) for work or leisure, needing short-term care.
+Small Families: Nuclear families, aged 30–50, with occasional travel (2–3 times/year), seeking budget-friendly care.
+Cat Enthusiasts: Breeders or rescuers, aged 18–40, prioritizing premium, cat-specific services.
+
+
+Estimated Size: Approximately 340,000 cat-owning households in Bengaluru, based on Bengaluru representing ~20% of India’s 1.7 million cat-owning households (Statista).
+Key Characteristics:
+Value trust and reliability in pet care services.
+Price-sensitive but willing to pay for quality (INR 200–350/visit).
+Prefer hyper-local sitters (within 5 km) for convenience.
+Tech-savvy, accustomed to mobile apps for services like food delivery or ride-sharing.
+
+
+
+2. Market Problem
+
+Primary Problems:
+Lack of Trustworthy Sitters: 65% of cat owners express concerns about unverified sitters, fearing neglect or mishandling (Pet Pals Bengaluru).
+High Costs: Existing services charge INR 500–1,500 per visit, prohibitive for many (PetBacker).
+Limited Cat-Specific Care: 45% seek specialized feline care (e.g., litter box management, behavioral expertise), unavailable in broad pet platforms (Google Maps).
+Inconvenience in Booking: Current solutions often lack user-friendly booking or flexible scheduling (Justdial).
+
+
+Secondary Problems:
+Limited Availability in Outskirts: 55% report fewer sitters in areas like Whitefield or Sarjapur, leaving suburban owners underserved.
+Pet Safety Concerns: Owners worry about health and safety, especially with non-cat-specific sitters.
+Lack of Transparency: Few services offer real-time updates, increasing owner anxiety.
+
+
+
+3. Market Requirements
+
+Functional Requirements:
+Mobile App: Intuitive interface for booking and payment, supporting both pet owners and sitters.
+Verified Sitter Profiles: Background checks, ratings, and reviews to ensure trust.
+Real-Time Updates: Photo or video updates during sitting periods to reassure owners.
+GPS Tracking: Location sharing to confirm sitters are at the correct address.
+Cat-Specific Care: Features for litter box management, feeding schedules, and behavioral monitoring tailored to feline needs.
+Affordable Pricing: INR 200–350 per visit for basic services; premium subscription (INR 800/month) for enhanced features like photo updates and AI care tips.
+Hyper-Local Matching: Sitters within 5 km of the owner’s location for quick response times.
+Secure Payments: Support for UPI, credit/debit cards, and digital wallets with instant payouts for sitters.
+Flexible Booking: Easy cancellation and rescheduling options.
+
+
+Non-Functional Requirements:
+Availability: 24/7 app access with <1% downtime.
+Scalability: Handle growth to 5,000 MAU in Year 1 and 20,000 by Year 3.
+Security: Encrypt user data and payment information.
+Usability: Simple navigation, booking in <5 minutes.
+
+
+Success Measures:
+Ease of Booking: Average booking time <5 minutes.
+Service Delivery: 95% of bookings fulfilled on schedule.
+User Satisfaction: Net Promoter Score (NPS) >60.
+Retention: 70% of users return for repeat bookings within 6 months.
+Sitter Accessibility: 85% of bookings within 5 km.
+Freemium Conversion: 20% of users upgrade to premium (INR 800/month).
+
+
+
+4. Prioritization
+Requirement
+Priority
+Market Importance
+
+Verified Sitter Profiles
+Critical
+Addresses trust issues (65% of owners cite trust as a concern).
+
+
+Affordable Pricing (INR 200–350/visit)
+Critical
+Meets budget needs (60% prefer INR 200–350).
+
+
+Easy Booking & Payment Systems
+Critical
+Ensures user adoption and retention.
+
+
+Cat-Specific Care Features
+Important
+Differentiates from broad pet platforms (45% seek feline expertise).
+
+
+Real-Time Updates (Photos/Videos)
+Important
+Enhances transparency and trust.
+
+
+GPS Tracking/Location Sharing
+Important
+Provides peace of mind for owners.
+
+
+Hyper-Local Sitter Matching
+Important
+Improves availability (55% cite issues in outskirts).
+
+
+Community Forum/Social Features
+Desirable
+Builds long-term engagement.
+
+
+Pet Health Tracking/Reminders
+Desirable
+Adds value for premium users.
+
+
+Integration with Pet Stores/Vet Clinics
+Desirable
+Enhances convenience for future phases.
+
+
+Additional Notes
+
+Market Opportunity:
+Bengaluru’s pet sitting market, part of India’s USD 115.7 million industry in 2024 (16.4% CAGR), is driven by ~340,000 cat-owning households and rising pet adoption (Grand View Research).
+The city’s pet-friendly culture and urban density make it ideal for a cat-only app.
+
+Competitive Landscape:
+PetBacker: 1,452 sitters, INR 500–1,500/visit, not cat-specific, 20% commission.
+Snouters: Home-based, INR 300–800, limited in outskirts.
+Crazycatlife: Cat-specific, INR 300–600, 8-cat limit, no app.
+Pawspace: INR 400–800, broad pet focus.
+Vet Clinics: ~20–30 cat-treating, ~7–10 offer kennel-based boarding (INR 500–1,000/day).
+
+
+Strategic Differentiation:
+Offer INR 200–350 pricing and freemium model to undercut competitors.
+Focus on cat-specific care to address unmet needs.
+Use low-code platforms (Bubble, Firebase) for cost-efficient development (~INR 23 lakh).
+Leverage Bangalore Cat Squad for community-driven trust and user acquisition.
