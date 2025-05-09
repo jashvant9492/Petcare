@@ -1,0 +1,85 @@
+Description
+The project aims to develop "CatCare," a mobile application connecting Bangalore cat owners with trusted, local pet sitters, offering affordable, cat-specific care through a freemium model. 
+The app addresses pain points like trust, affordability, and availability, targeting 5,000 monthly active users (MAU) in Year 1. 
+Using low-code platforms (Bubble, Firebase, Google Cloud Dialogflow), it minimizes development costs (~INR 23 lakh) while ensuring hyper-local accessibility (85% bookings within 5 km) and scalability. 
+The launch is planned for Q3 2025, aligning with peak travel seasons.
+
+
+Team Composition
+Product Manager: [Name] - Defines product vision, strategy, and roadmap; coordinates team efforts.
+Marketing Lead: [Name] - Conducts market research, drives user acquisition via social media (e.g., Instagram, Facebook), and manages partnerships (e.g., Bangalore Cat Squad).
+Operations Lead: [Name] - Oversees sitter onboarding, quality control, and logistics for booking fulfillment.
+Product Owner: [Name] - Prioritizes MVP features, manages backlog, ensures user alignment.
+Engineering Lead: [Name] - Leads app development using Bubble, Firebase, and React Native.
+Design Lead: [Name] - Creates intuitive UX/UI for cat owners and sitters.
+Community Manager: [Name] - Engages cat owner and sitter communities through events and forums.
+
+
+Team Purpose
+The team’s purpose is to deliver a scalable, user-friendly cat-only pet sitting app that addresses Bangalore’s market needs for trusted, affordable, and hyper-local care. 
+By leveraging a freemium model, the team aims to drive rapid adoption, achieve profitability, and build a community-driven platform, with an MVP launch by Q3 2025 and iterative enhancements based on user feedback.
+
+
+
+Objectives
+The team will:
+Define market segments (young professionals, small families, cat enthusiasts) and user personas.
+Conduct competitive analysis (e.g., PetBacker, Crazycatlife) to identify gaps.
+Develop a Market Requirements Document (MRD).
+Prioritize MVP features (e.g., cat profiles, hyper-local booking, payments).
+Design and prototype the app for seamless UX.
+Assess operational impacts (sitter recruitment, retention).
+Finalize product vision, value proposition, and positioning.
+Develop a launch strategy (social media, community events).
+Perform risk analysis (e.g., freelancer churn, adoption rates).
+Update the Project Charter as needed.
+Prepare a preliminary business case with financial projections.
+
+
+Key Performance Indicators (KPIs)
+
+Conceive and Plan Phases:
+Number of user interviews/surveys conducted (>50).
+Completion of competitive analysis (by June 2025).
+Definition of 3–4 user personas.
+Approval of MRD and Preliminary Requirements Document (PRD).
+Development of 2–3 prototypes.
+Initial user feedback score (>80% positive).
+
+
+
+
+Overall Project:
+MAU: 5,000 in Year 1, 20,000 by Year 3.
+Customer Acquisition Cost (CAC): INR 500.
+Lifetime Value (LTV): INR 5,000.
+Churn rate: <8%.
+User satisfaction: 85% (in-app surveys).
+Sitters onboarded: 50 in Year 1, 100 by Year 2.
+Booking fulfillment: 85% within 5 km.
+Freemium conversion: 20% to premium (INR 800/month).
+
+
+Sponsor
+Sponsor: [Name], Founder/CEO of [Company Name].
+Role: Approves funding (~INR 38 lakh), provides strategic oversight, and ensures alignment with market goals.
+
+Deadlines
+Conceive and Plan Phases: 15 May 2025 – 30 June 2025.
+Development: 1 July 2025 – 31 August 2025.
+Qualify (Testing): 1 September 2025 – 15 September 2025.
+Launch: 16 September 2025.
+Deliver (Post-launch support): Ongoing from 16 September 2025.
+Retire: To be determined.
+
+
+Resources
+Personnel: Cross-functional team (7 roles).
+Funding: ~INR 23 lakh for MVP development, INR 15 lakh/year for operations.
+Tools: Bubble (frontend), Firebase (backend), Google Cloud Dialogflow (AI chatbot), React Native (app), Razorpay (payments), Google Maps API (geolocation).
+Marketing: Budget for Instagram and Facebook ads, Bangalore Cat Squad events, partnerships with pet stores (e.g., Heads Up For Tails).
+
+
+Meetings
+Weekly Team Meetings: Wednesdays, 10:00–11:00 AM, via Google Meet. Team members present status updates.
+Bi-weekly Sponsor Check-ins: Every second Friday, 11:00 AM–12:00 PM, via Zoom. Product Manager reports progress and seeks approvals.
