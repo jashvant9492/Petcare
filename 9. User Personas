@@ -1,0 +1,156 @@
+Overview
+The cat-only pet sitting application in Bengaluru targets two primary user groups: pet owners and pet sitters, reflecting the two-sided marketplace model. 
+Pet owners seek reliable, affordable, and cat-specific care, while pet sitters provide these services, driven by income, flexibility, and a love for animals. 
+These personas, developed from market research, social media insights, and industry best practices for two-sided marketplaces, guide app design, feature prioritization, and marketing strategies to ensure a balanced platform that meets the needs of both groups.
+
+
+Pet Owner Personas
+Persona 1: Young Professional Cat Owner
+
+Name: Priya Sharma
+Age: 28
+Occupation: Software Engineer
+Location: Indiranagar, Bengaluru
+Household Income: INR 15–20 lakh/year
+Lifestyle: Busy, travels 4–6 times/year for work/leisure, active social life
+Pet: Whiskers, 2-year-old indoor Persian cat
+Needs: Short-term (1–3 days) pet sitting for travel
+
+Pain Points:
+Struggles to find trustworthy sitters (65% cite trust issues, based on Pet Pals Bengaluru posts).
+High costs (e.g., INR 500–1,500/visit, PetBacker).
+Lack of cat-specific care (e.g., litter management, behavioral needs).
+
+Preferences: In-home visits, sitters with cat expertise, photo updates, budget-conscious (prefers INR 200–350/visit).
+Technology Use: High, uses apps like Uber, Zomato; values user-friendly interfaces.
+Goals: Ensure Whiskers’ comfort, reduce travel stress.
+Motivations: Convenience, reliability, cost-effectiveness.
+Quote: “I need someone who gets cats and won’t break the bank.”
+
+
+
+Persona 2: Small Family Cat Owner
+
+Name: Rohan and Meera Kumar
+Ages: 35 and 32
+Occupation: Marketing Manager and Graphic Designer
+Location: Whitefield, Bengaluru
+Household Income: INR 10–12 lakh/year
+Lifestyle: Stable, travels 2–3 times/year (vacations, family visits), budget-conscious
+Pets: Simba (3-year-old tabby), Nala (1-year-old Siamese), both indoor
+Needs: Short to medium-term (3–7 days) pet sitting
+
+Pain Points:
+Limited sitters in outskirts (55% cite availability issues, Justdial).
+Boarding costs (INR 500–1,000/day, veterinary clinic reviews).
+Concerns about care quality for two cats.
+
+Preferences: In-home visits, photo updates, affordable (INR 200–350/visit).
+Technology Use: Moderate, uses apps but trusts recommendations, prioritizes reliability.
+Goals: Affordable, trustworthy care for both cats, minimal disruption.
+Motivations: Cost savings, pet comfort, ease of booking.
+Quote: “We want affordable care close to home that keeps our cats happy.”
+
+
+
+
+Persona 3: Cat Enthusiast
+
+Name: Aisha Khan
+Age: 30
+Occupation: Freelance Writer
+Location: Koramangala, Bengaluru
+Household Income: INR 8–10 lakh/year
+Lifestyle: Flexible, travels frequently (up to 2 weeks), active in Bangalore Cat Squad
+Pets: Luna (4-year-old Maine Coon), Milo (2-year-old Ragdoll), Cleo (1-year-old Bengal), all indoor
+Needs: Regular short/long-term pet sitting, premium care
+
+Pain Points:
+Needs sitters with cat behavior expertise (45% seek cat-specific care, Google Maps).
+Limited scalable cat-only services (e.g., Crazycatlife’s 8-cat limit).
+Wants advanced features (GPS tracking, AI care tips).
+
+
+Preferences: Cat-savvy sitters, live updates, willing to pay INR 500–700/overnight for quality.
+Technology Use: High, early adopter, values innovative apps.
+Goals: Best-in-class care, community engagement, support local pet businesses.
+Motivations: Pet well-being, community connection, tech innovation.
+Quote: “My cats deserve the best, and I want a community vibe.”
+
+
+
+
+Pet Sitter Personas
+Persona 4: Freelance Pet Sitter
+
+Name: Ananya Patel
+Age: 26
+Occupation: Freelance Graphic Designer
+Location: Koramangala, Bengaluru
+Income: INR 4–6 lakh/year (seeks supplemental income)
+Lifestyle: Flexible schedule, part-time work to balance primary job, loves animals
+Experience: 1 year of informal pet sitting for friends, familiar with cats
+Needs: Flexible pet sitting gigs, easy-to-use platform, fair compensation
+
+Pain Points:
+Difficulty finding consistent gigs (55% of sitters report irregular work, inferred from PetBacker reviews).
+High commissions (e.g., 20% on PetBacker) reduce earnings.
+Lack of tools to manage bookings and communicate with owners.
+Concerns about negative reviews impacting reputation.
+
+Preferences: Low commission (15%), instant UPI payouts, scheduling tools, cat-specific training.
+Technology Use: Comfortable with mobile apps, prefers simple interfaces, values calendar integration.
+Goals: Build a steady stream of clients, earn INR 10,000–15,000/month, establish a reliable reputation.
+Motivations: Supplemental income, love for cats, flexible work.
+Quote: “I love cats, but I need a platform that makes gigs easy and pays on time.”
+
+
+
+Persona 5: Student Pet Sitter
+
+Name: Vikram Rao
+Age: 20
+Occupation: College Student (Computer Science)
+Location: HSR Layout, Bengaluru
+Income: Minimal (relies on part-time work, parental support)
+Lifestyle: Busy with studies, seeks flexible side gigs, tech-savvy, grew up with pets
+Experience: No formal pet sitting experience, but comfortable with cats
+Needs: Part-time gigs that fit study schedule, simple onboarding, fair pay
+
+Pain Points:
+Limited job opportunities for students with no experience.
+High platform commissions reduce take-home pay.
+Needs guidance on cat care to build confidence.
+Worries about balancing gigs with academics.
+
+Preferences: 15% commission, quick onboarding, training resources, flexible hours.
+Technology Use: High, uses apps daily (e.g., Instagram, WhatsApp), expects intuitive platforms.
+Goals: Earn INR 5,000–8,000/month, gain work experience, build a positive profile.
+Motivations: Extra income, animal interaction, resume-building.
+Quote: “I need a side gig that’s flexible and teaches me how to care for cats.”
+
+
+
+
+Persona 6: Retired Pet Sitter
+
+Name: Lakshmi Nair
+Age: 60
+Occupation: Retired School Teacher
+Location: Whitefield, Bengaluru
+Income: Pension-based (INR 3–5 lakh/year), seeks supplemental income
+Lifestyle: Time-rich, enjoys community activities, lifelong cat owner
+Experience: Extensive experience caring for own cats, some informal sitting
+Needs: Consistent pet sitting gigs, user-friendly platform, fair compensation
+
+Pain Points:
+Limited tech familiarity, prefers simple interfaces.
+Concerns about physical demands of frequent gigs.
+High commissions (e.g., 20–25% on Snouters) reduce earnings.
+Needs clear communication with owners to avoid misunderstandings.
+
+Preferences: 15% commission, easy-to-use app, nearby gigs (within 5 km), support resources.
+Technology Use: Moderate, uses basic apps (e.g., WhatsApp), needs intuitive design.
+Goals: Earn INR 8,000–12,000/month, stay active, connect with pet community.
+Motivations: Supplemental income, social engagement, love for cats.
+Quote: “I want to care for cats nearby, but the app must be easy to use.”
