@@ -1,0 +1,293 @@
+1. Overview
+The Support and Maintenance Plan for CatCare, a mobile application for cat-only pet sitting in Bengaluru, India, ensures robust customer support and platform reliability during the Maturity Stage (Q3 2028 onward). Targeting 25,000 monthly active users (MAU) and INR 600 lakh annual revenue by Year 5 (Q3 2030), CatCare sustains its freemium model (INR 200–350/visit, INR 800/month premium) in Bengaluru’s ~340,000 cat-owning household market (Statista). The plan addresses user needs through in-app chat, FAQs, and forums, maintains >99% platform uptime, and supports new features (e.g., grooming, telehealth) introduced in the Maturity Stage. Aligned with India’s USD 253.6 million pet sitting market by 2030 (Grand View Research), it ensures NPS >70 and CSAT >85% while countering competitors like PetBacker.
+
+
+2. Objectives
+
+Seamless User Support: Achieve <12-hour response time for premium users, <24-hour for free users, and 90% first-contact resolution for ~2,000 monthly queries.
+Platform Reliability: Maintain >99% uptime and 95% booking fulfillment, ensuring uninterrupted service for 50,000 monthly bookings.
+Accessible Resources: Provide comprehensive FAQs, user guides, and forums in English and Kannada, covering 80% of common queries.
+Proactive Issue Resolution: Address app issues (e.g., bugs, payment errors) within 48 hours, minimizing user impact.
+Scalable Maintenance: Support new features (grooming, telehealth) and scale backend to handle 25,000 MAU by Year 5.
+User Satisfaction: Achieve NPS >70 and CSAT >85%, reinforcing trust and retention (80% target).
+
+3. Support and Maintenance Strategies
+3.1 Warranties
+
+Digital Service Warranty:
+Guarantee 95% booking fulfillment and <1% payment errors for all users, as per service-level agreement (SLA) in app terms.
+Premium users receive priority support (<12-hour response) and free telehealth consults (1/year), enhancing perceived quality.
+
+
+Documentation:
+Publish SLA on catcare.in and in-app by Q3 2028, detailing refund policies (e.g., 100% refund for unfulfilled bookings) and support commitments.
+Update terms annually to reflect new features (e.g., grooming guarantees).
+
+
+
+3.2 Frequently Asked Questions (FAQ)
+
+Content:
+Cover common queries: “How are sitters verified?”, “What if a booking fails?”, “How to access grooming?”, and “How to redeem loyalty points?”.
+Include troubleshooting tips (e.g., payment errors, app crashes) and feature guides (e.g., telehealth setup).
+
+
+Accessibility:
+Host FAQs in-app and on catcare.in, available in English and Kannada to serve Bengaluru’s diverse users.
+Update quarterly based on Zendesk query trends, ensuring 80% coverage of common issues.
+
+
+Implementation:
+Marketing Lead to refresh FAQs by Q3 2028, using beta and post-launch feedback (customer support requirements).
+Integrate with in-app chat for instant FAQ access, reducing query volume by 30%.
+
+
+
+3.3 Customer Support
+
+Channels:
+In-App Chat: Firebase-integrated, 24/7 for premium users, 9 AM–9 PM for free users.
+Email: support@catcare.in for complex issues (e.g., disputes).
+Phone: Toll-free number (1800-CAT-CARE) for urgent cases (e.g., sitter no-shows), available 10 AM–6 PM.
+
+
+Support Team:
+Scale to 5 full-time agents by Q3 2028, handling 2,000 monthly queries (vs. 500 at launch).
+Train agents quarterly on new features (e.g., grooming workflows), per customer support requirements.
+
+
+Escalation Process:
+Level 1 (Agents): 80% of queries (e.g., booking issues).
+Level 2 (Product Manager): 15% (e.g., technical bugs).
+Level 3 (Operations Lead): 5% (e.g., sitter misconduct).
+
+
+Monitoring:
+Use Zendesk for ticketing and CSAT surveys (post-query, “Rate support, 1–5”).
+Track response time, resolution rate, and CSAT weekly, targeting <24-hour response, 90% resolution, and >85% CSAT.
+
+
+
+3.4 Recalls
+
+Digital Equivalent (Issue Resolution):
+Proactively address app issues (e.g., bugs, downtime) via Firebase Crashlytics alerts.
+Notify users of critical updates (e.g., payment API fixes) via in-app banners and email, with step-by-step resolution guides.
+
+
+Process:
+Development Team to release patches within 48 hours of issue detection, per operations requirements.
+Offer compensation (e.g., INR 200 credit) for affected users (e.g., payment failures), communicated via email.
+
+
+Documentation:
+Maintain issue log on catcare.in/support, detailing resolved bugs and user actions (e.g., “Update to v2.1 for payment fix”).
+
+
+
+3.5 Product Documentation
+
+Content:
+User Guides: Step-by-step instructions for booking, grooming, telehealth, and loyalty program, with screenshots and videos.
+Sitter Manuals: Cat care protocols, app usage, and payment processes.
+Technical Docs: API guides for partners (e.g., vet clinics integrating telehealth).
+
+
+Formats:
+Digital: In-app, catcare.in, and PDF downloads.
+Hard Copy: Flyers with QR codes to guides, distributed at Heads Up For Tails (Heads Up For Tails).
+
+
+Languages: English and Kannada, ensuring accessibility for Bengaluru’s users.
+Updates:
+Revise quarterly by Marketing Lead, incorporating new features and user feedback, per launch readiness checklist.
+
+
+
+3.6 Online Resources
+
+Community Forums:
+Expand in-app forums (launched Q3 2026) for user discussions (e.g., cat care tips, sitter reviews), moderated by Community Manager.
+Target 5,000 active forum users by Year 5, boosting engagement (30% higher retention, Forbes).
+
+
+Knowledge Base:
+Host troubleshooting articles and video tutorials on catcare.in/support, integrated with FAQs.
+Update monthly based on Zendesk trends, covering 90% of support queries.
+
+
+Social Media:
+Maintain Instagram/Facebook groups (50,000 followers) for peer support, with weekly Q&A sessions by Community Manager.
+
+
+
+3.7 Third-Party Support Services
+
+Partners:
+Tech Support: Contract with Firebase-certified developers for advanced backend issues (e.g., scalability), costing INR 1 lakh/year.
+Payment Support: Razorpay provides 24/7 payment issue resolution, integrated with CatCare’s support ticketing.
+Vet Partnerships: Collaborate with 20 vet clinics for telehealth escalations, ensuring seamless consults.
+
+
+Selection:
+Vet third-party providers via reviews and case studies (e.g., Razorpay’s 99% uptime, Razorpay).
+Sign SLAs by Q3 2028, guaranteeing <24-hour resolution for critical issues.
+
+
+User Access:
+List third-party contacts in-app and on catcare.in/support, with clear instructions (e.g., “Contact Razorpay for payment disputes”).
+
+
+
+3.8 Platform Maintenance
+
+Backend:
+Use Firebase for hosting, database, and analytics, scaling to Blaze plan for 25,000 MAU and 50,000 bookings/month.
+Monitor performance via Firebase Performance Monitoring and Crashlytics, targeting <1% downtime.
+
+
+Updates:
+Release monthly patches for bugs and performance (e.g., <3-second load time).
+Deploy quarterly feature updates (e.g., grooming integration), tested in staging environment.
+
+
+Security:
+Comply with India’s Digital Personal Data Protection Act (DPDP) 2023, audited annually.
+Use Razorpay’s PCI DSS-compliant payment system to ensure <1% transaction errors.
+
+
+
+4. Roles and Responsibilities (Per Qualify Phase RACI)
+
+Customer Support: Responsible for managing chat, email, phone, and FAQs; conducting CSAT surveys.
+Development Team: Responsible for platform maintenance, patches, and third-party integrations.
+Operations Lead: Responsible for sitter support and escalations; Consulted for vet partnerships.
+Marketing Lead: Responsible for updating documentation and forums.
+Community Manager: Responsible for moderating forums and social media groups.
+Product Manager: Accountable for overseeing support and maintenance, approving SLAs.
+
+5. Key Performance Indicators (KPIs)
+
+
+
+KPI
+Target
+Measurement
+
+
+
+Response Time
+<12-hour (premium), <24-hour (free)
+Zendesk
+
+
+Resolution Rate
+90% first-contact
+Zendesk
+
+
+CSAT
+>85%
+Post-query surveys
+
+
+NPS
+>70
+In-app surveys
+
+
+Uptime
+>99%
+Firebase Monitoring
+
+
+Booking Fulfillment
+95%
+Backend logs
+
+
+Forum Engagement
+5,000 active users
+Firebase Analytics
+
+
+6. Timeline
+
+
+
+Activity
+Timeline
+Owner
+
+
+
+Update FAQs and documentation
+Q3 2028
+Marketing Lead
+
+
+Scale support to 5 agents
+Q3 2028
+Customer Support
+
+
+Launch enhanced forums
+Q3 2028
+Community Manager
+
+
+Contract third-party tech support
+Q3 2028
+Development Team
+
+
+Release grooming support features
+Q4 2028
+Development Team
+
+
+Introduce telehealth support
+Q2 2029
+Operations Lead
+
+
+7. Budget
+
+Total Annual (Q3 2028–Q3 2030): INR 10 lakh/year (within operational budget).
+Breakdown:
+Support Staff (5 agents): INR 5 lakh.
+Third-Party Services: INR 2 lakh.
+Documentation/Forums: INR 1 lakh.
+Backend Maintenance: INR 2 lakh.
+
+
+
+8. Risks and Mitigation
+
+
+
+Risk
+Mitigation
+
+
+
+High Query Volume: >2,000 queries/month overwhelm agents.
+Scale to 7 agents if volume exceeds 2,500; expand FAQs to cover 90% of queries.
+
+
+Platform Downtime: Bugs disrupt bookings.
+Use Firebase Crashlytics for real-time alerts; maintain 1-week patch cycle.
+
+
+Low Forum Adoption: <5,000 active users limit engagement.
+Promote forums via in-app notifications and Bangalore Cat Squad; offer loyalty points for posts.
+
+
+Third-Party Failures: Unreliable tech support delays fixes.
+Vet providers with >95% uptime SLAs; maintain in-house backup developers.
+
+
+9. Summary
+The Support and Maintenance Plan for CatCare ensures user satisfaction and platform reliability during the Maturity Stage, supporting 25,000 MAU and INR 600 lakh revenue by Year 5. Through clear SLAs, comprehensive FAQs, multi-channel support, proactive issue resolution, accessible documentation, vibrant forums, and reliable third-party services, CatCare will maintain NPS >70 and 95% booking fulfillment. The plan enables scalability for new features (grooming, telehealth) and positions CatCare for long-term success in India’s pet care industry, with potential for expansion to Mumbai/Pune (YourStory).
+
+
