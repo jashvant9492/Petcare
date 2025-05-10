@@ -1,0 +1,33 @@
+Part I: Overview
+The Post-Launch Retrospective Checklist for CatCare, a mobile application for cat-only pet sitting in Bengaluru, India, provides a framework to evaluate the October 2025 launch. Targeting 5,000 monthly active users (MAU) by Q3 2026 and INR 132 lakh revenue in Year 1, CatCare leverages a freemium model with INR 200–350/visit pricing to address trust (65% concern), affordability (60% preference), and cat-specific care (45% demand) in Bengaluru’s pet sitting market, part of India’s USD 253.6 million industry by 2030 (Grand View Research). Conducted in November 2025, the retrospective involves the Product Manager, Marketing Lead, Operations Lead, Community Manager, and stakeholders (e.g., Bangalore Cat Squad, Heads Up For Tails), using responses to three questions to identify successes, improvements, and changes for future launches (e.g., Mumbai/Pune expansion).
+Part II: Conduct a Retrospective
+
+
+
+Question
+Responses
+
+
+
+What went well?
+• Effective Beta Testing: The beta test (September 2025, 50 testers) validated core features (booking, profiles, payments) and usability, achieving NPS >60 and 90% task completion, per the beta plan.• Strong Partner Engagement: Partnerships with Bangalore Cat Squad and Heads Up For Tails drove 1,000 waitlist sign-ups and 50 sitter onboardings by Q4 2025, exceeding targets (sales and channel requirements).• Launch Promotions Success: The 50% off first booking campaign (October 2025) converted 20% of waitlist users to active users, boosting early adoption (launch plan).• Robust Customer Support Setup: The support team (3 agents, in-app chat, email) achieved <24-hour response and >85% CSAT, handling 500 monthly queries efficiently (customer support requirements).• Platform Reliability: Firebase backend ensured >99% uptime and 95% booking fulfillment, supporting 10,000 monthly bookings at launch (operations requirements).
+
+
+What can we improve?
+• Sitter Recruitment Pace: Onboarding 50 sitters was achieved, but delays in vetting slowed initial recruitment, risking booking shortages (operations requirements).• Social Media Ad ROI: Instagram/Facebook ads (INR 5 lakh) drove engagement but had a higher-than-expected CAC (~INR 600 vs. INR 500 target), reducing efficiency (launch plan).• Partner Training Consistency: Some vet clinic staff lacked full training, leading to inconsistent referral quality (sales and channel requirements).• Documentation Accessibility: User guides and FAQs were complete but not fully distributed to all stakeholders (e.g., new sitters) by launch, causing minor onboarding issues (launch readiness checklist).• Query Escalation Process: 5% of support queries required escalation to the Operations Lead, indicating gaps in agent training for complex issues (customer support requirements).
+
+
+What are changes we will strive for on the next launch?
+• Streamline Sitter Recruitment: Implement automated vetting tools (e.g., background check APIs) to onboard 100 sitters within 2 months for future launches, reducing delays.• Optimize Ad Targeting: Use A/B testing for social media ads and prioritize organic channels (e.g., Bangalore Cat Squad forums) to lower CAC to <INR 400, reallocating INR 1 lakh to influencer campaigns.• Standardize Partner Training: Develop a digital training module for partners, ensuring 100% staff completion before launch, with progress tracked via a CRM tool.
+
+
+Notes
+
+Context: Responses are speculative, based on anticipated outcomes from the launch plan, beta plan, Qualify Phase RACI, and functional requirements, as the launch is scheduled for October 2025.
+Stakeholder Input: The retrospective will include feedback from testers (50 beta participants), partners (Heads Up For Tails, vet clinics), and users via post-launch CSAT surveys and Firebase Analytics.
+Data Sources: Success metrics (e.g., NPS, task completion) from beta testing, MAU and revenue data from Firebase, and CSAT from Zendesk will inform responses.
+Future Launches: Insights will guide expansion to Mumbai/Pune (Q3 2026), focusing on scalability and cost efficiency.
+Alignment: The checklist supports CatCare’s goals of 5,000 MAU, INR 132 lakh revenue, and a strong market fit in Bengaluru’s pet sitting market (YourStory).
+
+Summary
+The Post-Launch Retrospective Checklist for CatCare facilitates a structured review of the October 2025 launch, highlighting successes like effective beta testing and strong partnerships, while identifying improvements in sitter recruitment, ad efficiency, and training. Proposed changes, such as automated vetting and optimized ad targeting, will enhance future launches, ensuring scalability and cost-effectiveness. By addressing these insights, CatCare will strengthen its position in India’s growing pet care industry, achieving its financial and user acquisition goals.
