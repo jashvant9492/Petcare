@@ -1,0 +1,220 @@
+1. Overview
+The usability testing plan for CatCare, a mobile application for cat-only pet sitting in Bengaluru, India, ensures the app is intuitive, efficient, and delightful for cat owners and sitters. 
+Conducted during the beta test in September 2025, the testing validates the Bolt.new prototype’s user experience, focusing on core features like user registration, hyper-local booking, profiles, and mock payments. Targeting Bengaluru’s ~340,000 cat-owning households (Statista), the plan follows best practices—testing early, using prototypes, and evaluating individually—to address usability issues before the Q3 2025 launch. The goal is to achieve >80% positive feedback, 90% task completion, and an NPS >60, supporting the project’s aim of 5,000 monthly active users (MAU) by Q3 2026.
+
+2. Testing Purpose
+
+Why is usability testing required?
+To ensure the app is learnable, efficient, memorable, error-free, and delightful, meeting user needs for affordability (INR 200–350/visit), trust (65% concern), and cat-specific care (45% demand).
+To validate market fit by confirming the app’s usability aligns with Bengaluru’s pet sitting market, part of India’s USD 253.6 million industry by 2030 (Grand View Research).
+
+
+Goals:
+Achieve >80% positive feedback on usability metrics (learnability, efficiency, satisfaction).
+Ensure 90% task completion rate for key actions (e.g., booking, profile setup).
+Attain NPS >60, indicating high user satisfaction and likelihood to recommend.
+Identify and prioritize usability issues for resolution before launch.
+
+
+
+3. Testing Scope
+
+Prototype: Bolt.new-based MVP with:
+Features: User registration, hyper-local booking (mock 5 km radius), profiles (owner: cat details; sitter: qualifications), mock payments (Razorpay integration), real-time chat, ratings/reviews.
+Environment: Staging server with Firebase backend, mimicking production.
+
+
+Usability Criteria (based on Nielsen’s heuristics):
+Learnability: Users understand app functionality within 5 minutes.
+Efficiency: Complete booking in <5 minutes.
+Memorability: Recall usage after 1 week without relearning.
+Error-Free: <5% of tasks result in errors (e.g., failed bookings).
+Delightful: >80% rate the experience as pleasant via surveys.
+Exclusions: Advanced features (e.g., AI care tips, community forums) not in MVP.
+
+4. Participants
+
+Target Segments:
+Cat Owners (5 testers): Young professionals (25–35, urban areas like Indiranagar), small families (30–50, suburban areas like Whitefield).
+Sitters (5 testers): Freelancers, students, or retirees in Bengaluru seeking flexible income.
+
+
+Number: 10 testers, ensuring balanced feedback from both user types.
+Rationale: Small sample aligns with usability testing best practices (5–10 users detect ~85% of issues, per Nielsen Norman Group (NNG)).
+Recruitment:
+Channels: Bangalore Cat Squad (~5,000 members, Bangalore Cat Squad), Heads Up For Tails stores (Heads Up For Tails), Instagram pet owner groups.
+Incentives: Owners receive 3-month free premium subscription (INR 800/month value); sitters receive INR 1,000 bonus for completing tasks.
+Selection Criteria: Must own cats (owners) or be willing to simulate sitting (sitters), reside in Bengaluru, and represent target demographics.
+
+5. Testing Methodology
+
+Approach: Iterative, task-based testing with observation, following best practices:
+Test early (September 2025) to identify issues before launch.
+Use working prototype for realistic user interaction.
+Evaluate individually to avoid bias, encouraging testers to resolve issues independently.
+
+
+Tasks:
+Register as an owner or sitter (input name, email, location, cat details/qualifications).
+Create/update a profile (add cat breed for owners, availability for sitters).
+Search for a sitter by location (select Indiranagar, view results).
+Book a sitter (select date, time, mock payment).
+Send/receive a chat message.
+Rate a booking (assign 1–5 stars).
+
+
+Testing Sessions:
+Format: 1-hour individual sessions (in-person or Zoom) with 10 testers.
+Observation: Product Manager and Quality Assurance Lead observe, noting task completion, errors, and comments without intervening.
+Location: Bengaluru (in-person at partner venues like Heads Up For Tails) or remote (Zoom for suburban testers).
+
+
+Feedback Collection:
+Surveys: Post-task in-app surveys with Likert-scale questions (e.g., “How easy was it to book a sitter? 1–5”).
+Interviews: 10-minute post-session interviews for qualitative insights (e.g., “What frustrated you?”).
+Analytics: Firebase Analytics to track task completion rates and error occurrences.
+
+
+Iterations:
+Initial Round: September 1–7, 2025, with 10 testers.
+Feedback Analysis: September 8–10, prioritize issues using MoSCoW method.
+Fixes: September 11–20, Development Team resolves high-priority issues.
+Follow-Up Round: September 21–23, re-test with 5 testers to validate fixes.
+
+
+
+6. Schedule
+
+
+
+Activity
+Timeline
+Owner
+
+
+
+Recruit testers
+August 15–31, 2025
+Community Manager
+
+
+Prepare prototype
+August 25–31, 2025
+Development Team
+
+
+Conduct initial testing
+September 1–7, 2025
+Quality Assurance
+
+
+Collect and analyze feedback
+September 8–10, 2025
+Product Manager
+
+
+Implement fixes
+September 11–20, 2025
+Development Team
+
+
+Conduct follow-up testing
+September 21–23, 2025
+Quality Assurance
+
+
+Finalize usability report
+September 24–25, 2025
+Product Manager
+
+
+7. Roles and Responsibilities
+
+Product Manager: Oversees testing, analyzes feedback, prioritizes fixes.
+Quality Assurance Lead: Designs tasks, conducts sessions, logs issues in Jira.
+Development Team: Prepares prototype, implements fixes post-testing.
+Community Manager: Recruits testers, manages communications.
+Testers: Perform tasks, provide feedback via surveys and interviews.
+
+8. Costs
+
+Item
+Cost (INR)
+
+Incentives (5 owners × 3-month premium, 5 sitters × INR 1,000)
+42,500
+
+
+Testing Tools (Zoom, survey software)
+5,000
+
+
+Venue (Heads Up For Tails, 2 days)
+10,000
+
+
+Staff (Community Manager, part-time)
+15,000
+
+
+Total
+72,500
+
+Funding: Part of INR 1.5 lakh beta test budget, within INR 8 lakh launch marketing budget.
+
+9. Legal Considerations
+
+Beta Tester Agreement: Outlines confidentiality, liability waivers, and feedback usage.
+Privacy Policy: Complies with India’s Digital Personal Data Protection Act (DPDP) 2023, shared during onboarding.
+Consent Forms: For session recordings, ensuring tester agreement.
+
+
+
+10. Key Performance Indicators (KPIs)
+
+KPI
+Target
+Measurement
+
+Positive Usability Feedback
+>80%
+Survey responses (Likert-scale)
+
+
+Task Completion Rate
+90%
+Firebase Analytics
+
+
+NPS
+>60
+Post-test survey
+
+
+Error Rate
+<5%
+Jira issue logs
+
+
+Satisfaction Rating
+>80%
+Survey question (“How pleasant was the app?”)
+
+
+
+11. Feedback Incorporation
+
+Analysis: Product Manager categorizes feedback (e.g., usability issues, feature requests) and prioritizes using MoSCoW:
+Must-Have: Fix critical bugs (e.g., booking failures).
+Should-Have: Improve usability (e.g., simplify navigation).
+Could-Have: Add minor features if time allows.
+
+
+Implementation: Development Team addresses fixes in sprints (September 11–20, 2025).
+Validation: Follow-up testing (September 21–23) confirms fixes, with regression testing to ensure stability.
+Report: Final usability report (September 25) documents findings, fixes, and KPI results for stakeholder review.
+
+12. Summary
+The CatCare usability testing plan ensures the app is user-friendly and market-ready by evaluating the Bolt.new prototype with 10 testers in September 2025. By testing early, observing individually, and iterating based on feedback, the plan addresses usability issues efficiently, aligning with agile principles and best practices (NNG). With a modest INR 72,500 budget, the testing supports CatCare’s goals of achieving NPS >60, 90% task completion, and a successful Q3 2025 launch, paving the way for INR 132 lakh revenue in Year 1 and 5,000 MAU by Q3 2026.
+
+
