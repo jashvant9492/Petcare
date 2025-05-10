@@ -1,0 +1,154 @@
+1. Overview
+The Manufacturing and Operations Launch Requirements document details the operational setup needed to support the CatCare mobile app’s launch in October 2025 in Bengaluru, India. As a digital platform for cat-only pet sitting, CatCare has no physical manufacturing but requires robust operations for sitter onboarding, platform maintenance, and service delivery. Targeting 5,000 monthly active users (MAU) by Q3 2026 and INR 132 lakh revenue in Year 1, the app relies on 50 sitters to fulfill 10,000 monthly bookings. This document aligns with the Qualify Phase RACI and launch plan, ensuring operational readiness for a seamless user experience.
+
+
+2. Objectives
+Onboard 50 sitters by Q4 2025 to support 10,000 monthly bookings.
+Achieve 95% booking fulfillment rate at launch.
+Maintain platform uptime >99% (<1% downtime).
+Scale operations to support 20,000 MAU and 40,000 bookings/month by Year 3.
+
+3. Requirements
+3.1 Sitter Onboarding and Training
+
+Recruitment:
+Target freelancers, students, and retirees via Bangalore Cat Squad, Heads Up For Tails, and vet clinics.
+Offer 15% commission, instant UPI payouts, and INR 400 bonus for 15+ bookings/month.
+
+
+Vetting:
+Background checks and cat care experience verification by Operations Lead.
+Minimum requirement: 1 year of pet care experience or training certification.
+
+
+Training:
+1-day online training (September 2025) on app usage, cat care protocols, and customer interaction.
+Provide in-app guide with cat-specific tips (e.g., handling anxious cats).
+
+
+Target: 50 sitters by Q4 2025, handling ~200 bookings/sitter/month.
+
+3.2 Platform Maintenance
+
+Backend Setup:
+Firebase for hosting, database, and analytics to manage user data and bookings.
+Google Maps API for hyper-local booking (within 5 km).
+Razorpay for secure payments.
+
+
+Monitoring:
+Use Firebase Crashlytics for real-time issue detection (e.g., app crashes).
+Monitor uptime and performance via Firebase Performance Monitoring.
+
+
+Maintenance:
+Development Team to apply weekly patches and updates post-beta testing.
+Allocate 2-week buffer (October 1–14, 2025) for final debugging.
+
+
+
+3.3 Service Delivery Processes
+
+Booking Fulfillment:
+Automate matching of owners to sitters within 5 km using Google Maps API.
+Operations Lead to manually resolve unmatched bookings (<5% of cases).
+
+
+Quality Control:
+Ratings/reviews system to monitor sitter performance (target 4.5/5 average).
+Monthly audits of sitter activity via Firebase Analytics.
+
+
+Scalability:
+Design backend to handle 10,000 bookings/month at launch, scaling to 40,000 by Year 3.
+Plan for additional server capacity (Firebase Spark to Blaze plan) if MAU exceeds 5,000.
+
+
+
+3.4 Market Readiness Assessment
+
+Activities:
+Validate sitter onboarding (50 sitters trained) and platform stability during beta testing (September 2025).
+Simulate 500 bookings to confirm 95% fulfillment rate.
+
+
+Criteria:
+100% of sitters complete training by September 30, 2025.
+Platform uptime >99% during beta testing.
+<1% payment errors in mock transactions.
+
+
+
+4. Roles and Responsibilities (Per Qualify Phase RACI)
+
+Manufacturing and Operations: Responsible for sitter onboarding, platform maintenance, and market readiness assessments. Consulted for beta testing feedback. Informed about usability testing outcomes.
+Product Manager: Accountable for overseeing operational setup and approving processes.
+Development Team: Responsible for backend maintenance and technical support.
+Operations Lead: Responsible for sitter recruitment, training, and quality control.
+
+5. Key Performance Indicators (KPIs)
+
+Sitter Onboarding: 50 sitters by Q4 2025.
+Booking Fulfillment: 95% at launch.
+Platform Uptime: >99% (<1% downtime).
+Sitter Rating: Average 4.5/5 post-launch.
+
+6. Timeline
+
+
+
+Activity
+Timeline
+Owner
+
+
+
+Recruit sitters
+July–September 2025
+Operations Lead
+
+
+Train sitters
+September 2025
+Operations Lead
+
+
+Set up backend monitoring
+August 2025
+Development Team
+
+
+Test operations during beta
+September 2025
+Operations Lead
+
+
+Conduct readiness assessment
+September 2025
+Operations Lead
+
+
+Launch operations
+October 2025
+Operations Lead
+
+
+7. Budget
+
+Total: INR 3 lakh (within INR 15 lakh annual operational budget).
+Breakdown: Sitter incentives (INR 1.5 lakh), training (INR 0.5 lakh), backend tools (INR 1 lakh).
+
+8. Risks and Mitigation
+
+Risk: Low sitter supply limits bookings.
+Mitigation: Expand recruitment via social media; offer higher bonuses if needed.
+
+
+Risk: Platform downtime disrupts service.
+Mitigation: Use Firebase Crashlytics for proactive monitoring; maintain 2-week debugging buffer.
+
+
+
+9. Summary
+The Manufacturing and Operations Launch Requirements ensure CatCare’s operational readiness for October 2025, with 50 sitters onboarded, a reliable platform, and scalable processes to support 10,000 monthly bookings. By addressing sitter supply and platform stability, operations will drive a 95% fulfillment rate and >99% uptime, supporting 5,000 MAU and INR 132 lakh revenue in Year 1.
+
