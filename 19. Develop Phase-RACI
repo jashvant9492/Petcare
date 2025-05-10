@@ -1,0 +1,73 @@
+The Develop Phase of the CatCare project involves designing, building, testing, and preparing the mobile application for launch, targeting a Q3 2025 release.
+The app, built using Bolt.new, Firebase, and React Native, offers cat-specific pet sitting services in Bengaluru, India, with a freemium model.
+The following Responsible, Accountable, Consulted, Informed (RACI) matrix defines roles and responsibilities for key activities, ensuring efficient collaboration and alignment with the project’s goals of affordability (INR 200–350/visit), trust, and hyper-local accessibility (85% bookings within 5 km).
+
+Key Activities
+
+Define Technical Design and Architecture: Establish the app’s technical blueprint, including system architecture and data models.
+Develop Code and Implement Features: Code core functionalities (e.g., user registration, hyper-local booking, profiles).
+Conduct Testing: Perform unit, integration, system, and user acceptance testing (UAT) to ensure quality.
+Perform Integration of Components: Integrate frontend, backend, and APIs (e.g., Razorpay, Google Maps).
+Prepare for Deployment: Finalize staging, beta testing, and release planning.
+
+
+RACI Matrix
+
+Activity                                     Product Manager     Development Team    Project/Program Manager    Business Analyst     Product Owner     Quality Assurance    Release Manager  Customers
+Define Technical Design and Architecture             A               R                       I                        C                  C                   I                   -              -
+Develop Code and Implement Features                  A               R                       I                        C                  C                   C                   I              -
+Conduct Testing                                      A               C                       I                        C                  C                   R                   I              C
+Perform Integration of Components                    A               R                       I                        -                  C                   C                   I              -
+Prepare for Deployment                               A               C                       I                        -                  C                   C                   R              -
+
+                                                           
+Explanation of Roles and Responsibilities
+
+Product Manager: 
+Accountable for the overall development process, ensuring alignment with market needs (e.g., trust, affordability) and project goals (5,000 MAU by Q3 2026). 
+Monitors progress, resolves blockers, and approves deliverables.
+
+Development Team: 
+Responsible for designing the app’s architecture, coding features (e.g., booking system, profiles), and integrating components. 
+Consulted during testing and deployment for debugging and final checks.
+
+Project/Program Manager:
+Informed about progress, ensuring schedules, budget (~INR 23 lakh for development), and scope are maintained. 
+Tracks milestones (e.g., MVP completion by August 2025).
+
+Business Analyst: 
+Consulted during design, development, and testing to ensure features meet user requirements (e.g., hyper-local booking, cat-specific care).
+
+Product Owner: 
+Consulted across all activities to prioritize features, validate user stories, and ensure the product backlog aligns with owner and sitter needs.
+
+Quality Assurance: 
+Responsible for conducting testing (unit, integration, system, UAT) to meet quality standards (e.g., 95% booking fulfillment). 
+Consulted during development for test-driven approaches and integration for quality checks.
+
+Release Manager:
+Responsible for preparing the app for deployment, including staging, beta testing with 50 users, and release planning. 
+Informed during development and testing to ensure release readiness.
+
+Customers:
+Consulted during user acceptance testing (UAT) in September 2025 to validate usability and functionality, ensuring the app meets owner and sitter expectations.
+
+
+
+Notes
+
+Agile Methodology: 
+The project uses an agile approach, with the Product Owner managing the product backlog and user stories (e.g., “As an owner, I want photo updates”).
+
+Customer Involvement: 
+Customers (cat owners, sitters) are involved in UAT to provide feedback, critical for achieving an NPS >60.
+
+Development Tools:
+Bolt.new, Firebase, React Native, and Google Cloud Dialogflow are used, influencing the Development Team’s responsibilities for rapid, low-code development.
+
+Testing Scope: 
+Includes unit testing (Development Team), integration/system testing (Quality Assurance), and UAT (Customers, Quality Assurance).
+
+Sitter Recruitment: 
+Operations Lead (not listed in RACI but part of broader team) supports sitter onboarding, critical for deployment readiness.
+
