@@ -1,0 +1,127 @@
+Customer Support Launch Requirements for CatCare Pet Sitting Application
+1. Overview
+The Customer Support Launch Requirements document outlines the processes and resources needed to provide effective support for CatCare users (cat owners and sitters) following the app’s October 2025 launch in Bengaluru, India. CatCare, a cat-only pet sitting platform, targets 5,000 monthly active users (MAU) by Q3 2026, generating INR 132 lakh revenue in Year 1. Support will address user queries (e.g., booking issues, payments) to ensure trust and satisfaction, critical for achieving an NPS >60. This document aligns with the Qualify Phase RACI and launch plan, ensuring readiness for post-launch operations.
+
+
+2. Objectives
+Respond to user queries within 24 hours.
+Achieve 90% query resolution rate within first contact.
+Attain Customer Satisfaction (CSAT) score >85% post-launch.
+Handle ~500 monthly queries at launch, scaling to 2,000 by Year 3.
+
+3. Requirements
+3.1 Support Channels
+
+In-App Chat: Real-time support via Firebase-integrated chat for immediate assistance (e.g., booking errors).
+Email Support: Dedicated email (support@catcare.in) for complex issues (e.g., payment disputes).
+FAQs: In-app and website FAQ section covering common queries (e.g., “How to verify a sitter?”).
+
+3.2 Support Team
+
+Composition: 3 part-time agents (20 hours/week) at launch, trained in pet care and customer service.
+Training:
+2-day training (September 2025) on app functionality, common issues, and escalation protocols.
+Role-play scenarios (e.g., handling payment failures, sitter no-shows).
+
+
+Escalation Process:
+Level 1: Agents handle routine queries (80% of cases).
+Level 2: Product Manager resolves technical issues (15%).
+Level 3: Operations Lead addresses critical cases (e.g., sitter misconduct, 5%).
+
+
+
+3.3 Support Tools
+
+Ticketing System: Firebase-integrated Zendesk for query tracking and resolution.
+Analytics: Firebase Analytics to monitor query volume, types, and resolution times.
+Knowledge Base: Internal guide for agents, detailing app features and troubleshooting steps.
+
+3.4 Market Readiness Assessment
+
+Activities:
+Validate support channels (chat, email) during beta testing (September 2025) with 50 testers.
+Confirm agents are trained and tools are operational by September 30, 2025.
+
+
+Criteria:
+100% of test queries resolved within 24 hours.
+FAQs cover 80% of anticipated query types (based on beta feedback).
+
+
+
+3.5 Post-Launch Monitoring
+
+Feedback Collection: In-app CSAT surveys post-query resolution (e.g., “Rate your support experience, 1–5”).
+Performance Tracking: Weekly reports on response time, resolution rate, and CSAT via Zendesk.
+Continuous Improvement: Monthly reviews to update FAQs and training based on query trends.
+
+4. Roles and Responsibilities (Per Qualify Phase RACI)
+
+Customer Support: Responsible for setting up support processes, training agents, and conducting readiness assessments. Informed during beta/usability testing to prepare for user issues.
+Product Manager: Accountable for overseeing support setup and approving processes.
+Quality Assurance: Consulted during beta testing to identify support-related issues.
+Operations Lead: Consulted for escalation protocols and critical case handling.
+
+5. Key Performance Indicators (KPIs)
+
+Response Time: <24 hours for 95% of queries.
+Resolution Rate: 90% on first contact.
+CSAT Score: >85% post-launch.
+Query Volume: Handle 500/month at launch.
+
+6. Timeline
+
+Activity
+Timeline
+Owner
+
+
+Develop FAQs and knowledge base
+August 2025
+Customer Support
+
+
+Set up support tools (Zendesk, chat)
+August 2025
+Customer Support
+
+
+Train support agents
+September 2025
+Customer Support
+
+
+Test support channels during beta
+September 2025
+Quality Assurance
+
+
+Conduct readiness assessment
+September 2025
+Customer Support
+
+
+Launch support operations
+October 2025
+Customer Support
+
+
+7. Budget
+
+Total: INR 2 lakh (within INR 15 lakh annual operational budget).
+Breakdown: Agent salaries (INR 1.2 lakh for 3 agents, 3 months), tools (INR 0.5 lakh), training (INR 0.3 lakh).
+
+8. Risks and Mitigation
+
+Risk: High query volume overwhelms agents.
+Mitigation: Scale to 5 agents if queries exceed 500/month; prioritize FAQs to reduce load.
+
+
+Risk: Low CSAT due to unresolved issues.
+Mitigation: Train agents on escalation protocols; monitor CSAT weekly via Zendesk.
+
+
+9. Summary
+The Customer Support Launch Requirements ensure CatCare delivers seamless support for owners and sitters, fostering trust and satisfaction post-launch. With in-app chat, email, and FAQs, supported by a trained team and robust tools, the setup will handle 500 monthly queries, achieving <24-hour response and >85% CSAT. This supports CatCare’s goal of 5,000 MAU and INR 132 lakh revenue in Year 1.
+
