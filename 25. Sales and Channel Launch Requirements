@@ -1,0 +1,155 @@
+1. Overview
+The Sales and Channel Launch Requirements document outlines the strategies and activities to engage channel partners and drive user acquisition for the CatCare mobile app, launching in October 2025 in Bengaluru, India. CatCare, a cat-only pet sitting platform, targets 5,000 monthly active users (MAU) by Q3 2026, generating INR 132 lakh revenue in Year 1 (INR 96 lakh from premium subscriptions, INR 36 lakh from booking commissions). Partnerships with Bangalore Cat Squad, Heads Up For Tails, and vet clinics will promote the app’s freemium model, emphasizing affordability (INR 200–350/visit), trust, and hyper-local accessibility. This document aligns with the product launch plan and Qualify Phase RACI, ensuring sales and channel readiness.
+
+2. Objectives
+
+Achieve 1,000 waitlist sign-ups by August 2025 via partner channels.
+Onboard 50 sitters by Q4 2025 to support 10,000 monthly bookings.
+Convert 20% of referred users to active users through partner promotions.
+Establish partnerships with 3 pet stores and 10 vet clinics by launch.
+
+3. Requirements
+3.1 Partner Identification and Onboarding
+
+Partners:
+Bangalore Cat Squad: Community with ~5,000 members for owner/sitter recruitment (Bangalore Cat Squad).
+Heads Up For Tails: Bengaluru’s leading pet store chain for promotional displays (Heads Up For Tails).
+Vet Clinics: ~20 cat-treating clinics for sitter referrals (Justdial).
+
+
+Onboarding Process:
+Sign MOUs with partners by July 2025, outlining roles (e.g., flyer distribution, event hosting).
+Provide partners with sales decks and demo videos by August 2025.
+Train partner staff on CatCare’s value proposition (cat-specific, affordable) and referral process.
+
+
+
+3.2 Sales Collateral
+
+Materials:
+Sales Deck: Highlights 15% commission, INR 200–350 pricing, and hyper-local booking for partners.
+Flyers: Distributed at pet stores/vet clinics, promoting 50% off first booking and waitlist sign-ups.
+Demo Videos: 1-minute videos on YouTube/Instagram showing booking flow, shared with partners.
+
+
+Development:
+Marketing Lead to create collateral by August 2025, using INR 0.2 lakh from partnership budget.
+Ensure collateral emphasizes trust (verified sitters), affordability, and cat-specific care.
+
+
+
+3.3 Promotional Campaigns
+
+Partner-Led Promotions:
+Bangalore Cat Squad: Host pre-launch event (August 2025) and forum campaigns for waitlist sign-ups.
+Heads Up For Tails: In-store flyers and QR codes for waitlist, plus co-hosted adoption drive (November 2025).
+Vet Clinics: Referral program offering clinics INR 100 per sitter onboarded.
+
+
+Launch Promotion:
+50% off first booking (October 2025), promoted via partner channels.
+Referral program: INR 200 credit per successful referral, launched November 2025.
+
+
+Budget: INR 0.6 lakh (flyers: INR 0.2 lakh, events: INR 0.3 lakh, referrals: INR 0.1 lakh).
+
+3.4 Training and Support
+
+Partner Training:
+Conduct 1-hour training sessions (August 2025) for pet store/clinic staff on app usage and benefits.
+Provide FAQ sheet for common questions (e.g., “How are sitters verified?”).
+
+
+Support:
+Assign Community Manager to liaise with partners, addressing issues via email/WhatsApp.
+Monitor partner performance weekly via Firebase Analytics (e.g., referral conversions).
+
+
+
+3.5 Market Readiness Assessment
+
+Activities:
+Sales & Channel Partners to confirm promotional materials are distributed and staff trained by September 2025.
+Validate partner readiness through mock referrals and event planning reviews.
+
+
+Criteria:
+80% of partners (e.g., 2/3 pet stores, 8/10 clinics) confirm readiness by September 30, 2025.
+Achieve 1,000 waitlist sign-ups via partner channels.
+
+
+
+4. Roles and Responsibilities (Per Qualify Phase RACI)
+
+Sales & Channel Partners: Responsible for conducting market readiness assessments and executing promotions. Consulted for feedback on collateral and campaigns. Informed about beta/usability testing outcomes.
+Product Manager: Accountable for overseeing partner strategy and approving collateral.
+Community Manager: Responsible for partner coordination and event execution.
+Marketing Lead: Responsible for creating collateral and managing campaigns.
+
+5. Key Performance Indicators (KPIs)
+
+Waitlist Sign-Ups: 1,000 by August 2025.
+Referral Conversion: 20% of referred users become active by Q4 2025.
+Sitter Onboarding: 50 sitters by Q4 2025.
+Partner Engagement: 80% of partners confirm readiness by September 2025.
+
+6. Timeline
+
+
+
+Activity
+Timeline
+Owner
+
+
+
+Sign MOUs with partners
+July 2025
+Community Manager
+
+
+Develop sales collateral
+August 2025
+Marketing Lead
+
+
+Train partner staff
+August 2025
+Community Manager
+
+
+Launch partner promotions
+August–September 2025
+Marketing Lead
+
+
+Conduct readiness assessment
+September 2025
+Sales & Channel Partners
+
+
+Execute launch promotion
+October 2025
+Marketing Lead
+
+
+7. Budget
+
+Total: INR 0.6 lakh (within INR 8 lakh launch marketing budget).
+Breakdown: Flyers (INR 0.2 lakh), events (INR 0.3 lakh), referrals (INR 0.1 lakh).
+
+8. Risks and Mitigation
+
+Risk: Low partner engagement reduces sign-ups.
+Mitigation: Offer incentives (e.g., INR 100/clinic referral) and monitor engagement weekly.
+
+
+Risk: Insufficient sitter recruitment via partners.
+Mitigation: Supplement with social media campaigns and Bangalore Cat Squad forums.
+
+
+
+9. Summary
+The Sales and Channel Launch Requirements ensure CatCare leverages partnerships to drive user and sitter acquisition, supporting the October 2025 launch. By collaborating with Bangalore Cat Squad, Heads Up For Tails, and vet clinics, CatCare aims to achieve 1,000 waitlist sign-ups and onboard 50 sitters, aligning with the goal of 5,000 MAU and INR 132 lakh revenue in Year 1.
+Grand View Research India Pet Sitting Market Outlook
+
