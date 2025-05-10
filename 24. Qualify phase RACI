@@ -1,0 +1,123 @@
+Qualify Phase RACI for CatCare Pet Sitting Application
+The Qualify Phase of the CatCare project focuses on validation and testing to ensure the mobile application is ready for its Q3 2025 launch in Bengaluru, India. CatCare, a cat-only pet sitting platform built with Bolt.new, Firebase, and React Native, offers affordable (INR 200–350/visit), trustworthy, and hyper-local services, targeting 5,000 monthly active users (MAU) by Q3 2026. The following Responsible, Accountable, Consulted, Informed (RACI) matrix defines roles and responsibilities for key activities, including beta testing, usability testing, and market readiness assessments, ensuring alignment with market needs and project goals (NPS >60, INR 132 lakh Year 1 revenue).
+Key Activities
+
+Conduct Beta Testing: Test the MVP with 50 testers (25 owners, 25 sitters) to validate functionality, usability, and market fit.
+Perform Usability Testing: Evaluate the app’s learnability, efficiency, and satisfaction with 10 testers.
+Conduct Market Readiness Assessment: Confirm operational, marketing, and partner readiness for launch.
+Complete Documentation and Support Setup: Prepare user guides, FAQs, and customer support processes.
+Perform Final Validation and Approval: Verify all requirements are met and approve the app for launch.
+
+RACI Matrix
+
+
+
+Activity
+Product Manager
+Development Team
+Project/Program Manager
+Business Analyst
+Product Owner
+Quality Assurance
+User Experience (UX)
+Customer Support
+Sales & Channel Partners
+Release Manager
+Customers
+
+
+
+Conduct Beta Testing
+A
+C
+I
+C
+C
+R
+C
+I
+I
+R
+R
+
+
+Perform Usability Testing
+A
+C
+I
+C
+C
+R
+R
+I
+-
+I
+R
+
+
+Conduct Market Readiness Assessment
+A
+I
+I
+-
+C
+I
+I
+R
+R
+I
+-
+
+
+Complete Documentation and Support Setup
+A
+R
+I
+C
+C
+I
+C
+R
+I
+I
+-
+
+
+Perform Final Validation and Approval
+A
+C
+I
+-
+C
+C
+I
+I
+I
+R
+-
+
+
+Explanation of Roles and Responsibilities
+
+Product Manager: Accountable for overseeing all Qualify Phase activities, defining testing strategies, guiding beta/usability testing, and approving launch readiness. Responsible for coordinating stakeholders and assessing results to ensure alignment with market needs (e.g., affordability, trust).
+Development Team: Consulted during beta and usability testing to address technical issues and provide subject matter expertise (SME). Responsible for creating technical documentation (e.g., API guides) and resolving bugs identified during testing.
+Project/Program Manager: Informed about testing progress and logistics, ensuring schedules (e.g., September 2025 testing) and budget (INR 1.5 lakh for beta) are maintained.
+Business Analyst: Consulted during beta and usability testing to ensure features meet user requirements (e.g., hyper-local booking). Provides SME input on market needs.
+Product Owner: Consulted across activities to validate user stories and ensure the product backlog aligns with owner and sitter expectations (e.g., INR 200–350 pricing).
+Quality Assurance: Responsible for executing beta and usability testing protocols, logging issues in Jira, and ensuring quality standards (e.g., 95% booking fulfillment, <5% critical bugs). Consulted for final validation to confirm test criteria are met.
+User Experience (UX): Responsible for monitoring usability testing, measuring metrics (e.g., learnability, efficiency), and providing recommendations for UI/UX improvements. Consulted during beta testing for user feedback analysis.
+Customer Support: Responsible for setting up support processes (e.g., in-app chat, email) and conducting market readiness assessments to ensure post-launch support. Informed during testing to prepare for user queries.
+Sales & Channel Partners: Responsible for assessing marketing readiness with partners (e.g., Heads Up For Tails, Bangalore Cat Squad) to ensure promotional channels are prepared. Informed about testing outcomes to align partnership strategies (Heads Up For Tails).
+Release Manager: Responsible for overseeing beta testing logistics (with Product Manager) and final validation, ensuring the app is ready for deployment to Google Play/App Store. Informed during other activities to track launch readiness.
+Customers: Responsible for participating in beta (50 testers) and usability testing (10 testers), providing feedback on functionality and usability. Consulted to validate market fit and user satisfaction.
+
+Notes
+
+Agile Methodology: The Qualify Phase uses agile principles, with iterative testing and feedback loops managed by the Product Owner and Quality Assurance.
+Customer Involvement: Customers (cat owners, sitters) are critical for beta and usability testing, ensuring the app meets expectations (e.g., <5-minute booking, NPS >60).
+Testing Scope: Beta testing (September 1–14, 2025) validates functionality and market fit; usability testing (September 1–7, 2025) focuses on user experience, per the beta and usability plans.
+Documentation: Includes user guides, FAQs, and technical documentation, critical for support and partner onboarding.
+Market Context: Aligns with Bengaluru’s pet sitting market, part of India’s USD 253.6 million industry by 2030 (Grand View Research), addressing trust (65%), affordability (60%), and cat-specific care (45%) needs.
+
+
+
