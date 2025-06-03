@@ -1,4 +1,4 @@
-# CatCare Pet Care Application
+# MeowMate Pet Care Application
 
 ## Project Overview
 
