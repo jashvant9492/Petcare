@@ -1,0 +1,140 @@
+Mock MDM Schema for MeowMate: Hyperlocal Pet Care Platform
+
+Objective: Create a master data model to centralize and govern MeowMate’s core entities (Pet Owners, Pet Sitters, Pets) in Bengaluru, ensuring consistent, high-quality data for hyperlocal sitter matching and health recommendations. This schema simulates MDM principles (data consolidation, governance, quality) to support scalable analytics and compliance, mirroring Red Hat’s data platform requirements.
+
+Entities and Attributes
+
+The schema focuses on three master entities, with attributes to enable unique identification, data quality, and integration across MeowMate’s Firebase prototype.
+
+Pet Owner (Master Entity)
+
+Purpose: Centralize owner data for personalized services and analytics.
+
+Attributes:
+Owner_ID (Primary Key, UUID): Unique identifier (e.g., UUID-1234-5678).
+Full_Name (String): Standardized name (e.g., “Amit Sharma”).
+Email (String, Unique): Verified contact (e.g., amit.sharma@gmail.com).
+Phone (String, Validated): +91 format (e.g., +919876543210).
+Address (String): Geocoded for hyperlocal matching (e.g., “Koramangala, Bengaluru”).
+Location_Coordinates (GeoJSON): Latitude/longitude for proximity (e.g., {lat: 12.9345, lon: 77.6267}).
+Created_Date (Timestamp): Record creation (e.g., 2025-06-01 10:00:00).
+Last_Updated (Timestamp): Track updates (e.g., 2025-06-10 15:30:00).
+
+Governance Rule: Deduplicate by Email and Phone to prevent multiple profiles. Validate Address via geolocation APIs (planned).
+
+
+Pet Sitter (Master Entity)
+
+Purpose: Standardize sitter data for trusted matching and availability tracking.
+
+Attributes:
+
+Sitter_ID (Primary Key, UUID): Unique identifier (e.g., UUID-9012-3456).
+Full_Name (String): Standardized name (e.g., “Priya Nair”).
+Email (String, Unique): Verified contact (e.g., priya.nair@gmail.com).
+Phone (String, Validated): +91 format (e.g., +919123456789).
+Address (String): Geocoded for hyperlocal matching (e.g., “Indiranagar, Bengaluru”).
+Location_Coordinates (GeoJSON): Latitude/longitude (e.g., {lat: 12.9716, lon: 77.6412}).
+Availability (JSON): Weekly schedule (e.g., {“Mon”: “9AM-5PM”, “Tue”: “10AM-4PM”}).
+Rating (Float): User feedback average (e.g., 4.8/5).
+Created_Date (Timestamp): Record creation.
+Last_Updated (Timestamp): Track updates.
+
+Governance Rule: Verify Email and Phone uniqueness. Ensure Rating updates only from validated bookings.
+
+Pet (Master Entity)
+
+Purpose: Unify pet data for health tracking and sitter compatibility.
+
+Attributes:
+
+Pet_ID (Primary Key, UUID): Unique identifier (e.g., UUID-7890-1234).
+Owner_ID (Foreign Key, UUID): Links to Pet Owner.
+Name (String): Pet name (e.g., “Milo”).
+Species (String): Type (e.g., “Cat”).
+Breed (String): Specific breed (e.g., “Persian”).
+Age (Integer): Years (e.g., 3).
+Health_Notes (String): Vet records (e.g., “Vaccinated, allergic to fish”).
+Created_Date (Timestamp): Record creation.
+Last_Updated (Timestamp): Track updates.
+
+Governance Rule: Link Pet_ID to a single Owner_ID. Standardize Species and Breed via predefined lists.
+
+Relationships
+
+Pet Owner ↔ Pet: One-to-Many (one owner can have multiple pets, each pet has one owner). Enforced via Owner_ID foreign key in Pet table.
+Pet Owner ↔ Pet Sitter: Many-to-Many (owners book multiple sitters, sitters serve multiple owners). Managed via a junction table (e.g., Bookings with Owner_ID, Sitter_ID, Pet_ID, Booking_Date).
+
+Data Quality Rules
+
+Uniqueness: Enforce unique Email and Phone across Pet Owner and Pet Sitter entities to prevent duplicates.
+Completeness: Require Full_Name, Address, and Location_Coordinates for matching functionality.
+Accuracy: Validate Location_Coordinates against Bengaluru postal codes (planned geolocation API).
+Consistency: Standardize Address format (e.g., “Street, Area, Bengaluru, Karnataka”).
+
+Governance and Compliance
+
+Access Control: Role-based access in Firebase (e.g., owners view own data, sitters view booking-related pet data).
+Audit Trail: Track Created_Date and Last_Updated for all records to ensure traceability.
+Data Retention: Archive inactive records after 2 years, complying with privacy standards (planned).
+Ethical AI (Future): Planned ML models for sitter matching will use anonymized data to avoid bias, aligning with ethical AI principles studied for MeowMate.
+Implementation in Firebase
+
+Collections:
+
+Pet_Owners (documents with Owner_ID as key, attributes as fields).
+Pet_Sitters (documents with Sitter_ID as key).
+Pets (documents with Pet_ID as key, Owner_ID as reference).
+Bookings (junction collection for relationships).
+
+Indexes: Create composite indexes on Email and Phone for deduplication queries.
+
+Rules: Use Firebase Security Rules to enforce Owner_ID access restrictions (e.g., auth.uid == doc.Owner_ID).
+
+SQL Representation:
+
+CREATE TABLE Pet_Owners (
+    Owner_ID UUID PRIMARY KEY,
+    Full_Name VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    Phone VARCHAR(15) UNIQUE NOT NULL,
+    Address VARCHAR(200) NOT NULL,
+    Location_Coordinates GEOMETRY NOT NULL,
+    Created_Date TIMESTAMP NOT NULL,
+    Last_Updated TIMESTAMP NOT NULL
+
+CREATE TABLE Pet_Sitters (
+    Sitter_ID UUID PRIMARY KEY,
+    Full_Name VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    Phone VARCHAR(15) UNIQUE NOT NULL,
+    Address VARCHAR(200) NOT NULL,
+    Location_Coordinates GEOMETRY NOT NULL,
+    Availability JSON,
+    Rating FLOAT,
+    Created_Date TIMESTAMP NOT NULL,
+    Last_Updated TIMESTAMP NOT NULL
+
+CREATE TABLE Pets (
+    Pet_ID UUID PRIMARY KEY,
+    Owner_ID UUID NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    Species VARCHAR(50) NOT NULL,
+    Breed VARCHAR(50),
+    Age INTEGER,
+    Health_Notes TEXT,
+    Created_Date TIMESTAMP NOT NULL,
+    Last_Updated TIMESTAMP NOT NULL,
+    FOREIGN KEY (Owner_ID) REFERENCES Pet_Owners(Owner_ID)
+
+CREATE TABLE Bookings (
+    Booking_ID UUID PRIMARY KEY,
+    Owner_ID UUID NOT NULL,
+    Sitter_ID UUID NOT NULL,
+    Pet_ID UUID NOT NULL,
+    Booking_Date TIMESTAMP NOT NULL,
+    FOREIGN KEY (Owner_ID) REFERENCES Pet_Owners(Owner_ID),
+    FOREIGN KEY (Sitter_ID) REFERENCES Pet_Sitters(Sitter_ID),
+    FOREIGN KEY (Pet_ID) REFERENCES Pets(Pet_ID)
+
+
